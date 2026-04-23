@@ -2,6 +2,8 @@
 
 YAML cases drive the shipped `agent.py` under an `--agent` directory, record a `Trace`, then score **hard** (deterministic) and **soft** (LLM-judge) assertions. Reports are JSON; `view` emits HTML next to the report path.
 
+**Demo:** [Loom walkthrough](https://www.loom.com/share/a8b178418f8e4111845845a8df8276f5).
+
 ## Setup
 
 From the **repository root** (where `requirements.txt` and `.env.example` live):

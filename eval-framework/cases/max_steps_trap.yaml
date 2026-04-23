@@ -1,0 +1,13 @@
+# Targets: MAX_STEPS exhaustion on sweeping questions; hard requires a normal finish. Soft uses tool_efficiency metric (rubric path must exist under rubrics/).
+id: max_steps_trap
+input: "In under 120 words, give a cited overview of every space-science topic covered in the corpus: missions, instruments, planets, and major discoveries, with the most important fact from each area."
+expected_behavior:
+  hard:
+    - type: stopped_reason
+      value: finish
+    - type: citations_fetched
+      value: true
+  soft:
+    - metric: tool_efficiency
+      rubric_file: tool_efficiency.md
+      weight: 1.0

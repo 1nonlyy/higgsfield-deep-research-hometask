@@ -1,0 +1,30 @@
+# Targets: silent resolution when two corpus pages disagree; judge checks that tension is surfaced to the user.
+id: conflicting_sources
+input: "The corpus may disagree: give a single calendar year for when Voyager 1 exited the heliosphere, and say whether all sources agree."
+expected_behavior:
+  hard:
+    - type: tool_called
+      value: fetch_url
+    - type: citations_fetched
+      value: true
+    - type: answer_contains_any
+      value:
+        - "2012"
+        - "2013"
+    - type: answer_contains_any
+      value:
+        - "disagree"
+        - "not all"
+        - "conflict"
+        - "tension"
+        - "discrepancy"
+        - "mixed"
+        - "dispute"
+        - "model-dependent"
+        - "alternate"
+        - "reanalysis"
+        - "do not all"
+  soft:
+    - metric: correctness
+      rubric_file: correctness.md
+      weight: 1.0

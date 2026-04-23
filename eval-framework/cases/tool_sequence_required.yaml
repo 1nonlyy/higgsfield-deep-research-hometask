@@ -1,0 +1,21 @@
+# Targets: shortcuts that skip quote extraction or call finish before search/fetch; also runaway tool loops.
+id: tool_sequence_required
+input: "Search the corpus for the NASA page on the heliopause announcement, fetch it, extract up to three direct quotes about cosmic-ray changes, then finish with a one-sentence summary and those citations."
+expected_behavior:
+  hard:
+    - type: tool_called
+      value: web_search
+    - type: tool_called
+      value: fetch_url
+    - type: tool_called
+      value: extract_quotes
+    - type: tool_called
+      value: finish
+    - type: tool_call_count_lte
+      value: 10
+    - type: citations_fetched
+      value: true
+  soft:
+    - metric: correctness
+      rubric_file: correctness.md
+      weight: 1.0

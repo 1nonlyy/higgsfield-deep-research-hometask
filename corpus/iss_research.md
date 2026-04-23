@@ -1,0 +1,7 @@
+# International Space Station research highlights: microgravity biology
+
+The **International Space Station** (ISS) functions as a laboratory where reduced gravity, exposure to space radiation, and rapid day-night cycles can be studied in combination. NASA and partner agencies host principal investigator experiments spanning fluid physics, combustion, materials science, and life sciences.
+
+Microgravity cell culture experiments examine how mammalian cells organize without sedimentation-driven convection. Plant growth chambers test whether root skewing and auxin transport behave differently when buoyancy cues are removed. Protein crystallization payloads aim for larger, more ordered crystals for structural biology, although results vary by target. Astronaut health studies track bone mineral density loss, ocular changes, and immune system shifts, informing future long-duration missions beyond low Earth orbit.
+
+External platforms expose samples to the space environment directly, separate from pressurized modules. Coordinating crew time, cold stowage, and return logistics makes **ISS** research operationally heavy, but the decade-long continuous presence enables repeated measurements impossible on short suborbital hops. Meta-analyses increasingly compare **ISS** biology results with ground analogs such as bed rest and Antarctic overwintering to isolate which effects are truly microgravity-specific.

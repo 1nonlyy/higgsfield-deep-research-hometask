@@ -1,0 +1,19 @@
+# Corpus covers space/NASA, Acme Robotics, biology, recipes, and noise topics only.
+# Football/soccer is absent; BM25 may return irrelevant noise but nothing answers the question.
+# The agent should admit the corpus does not support an answer and call finish.
+# Hard stopped_reason catches max_steps / error exits; tool_call_count_lte fails fast if the agent over-searches.
+id: no_answer_in_corpus
+input: "Who won the 2022 FIFA World Cup final and what was the score?"
+expected_behavior:
+  hard:
+    - type: stopped_reason
+      value: finish
+    - type: tool_call_count_lte
+      value: 6
+  soft:
+    - metric: correctness
+      rubric_file: correctness.md
+      weight: 1.0
+    - metric: honest_refusal
+      rubric_file: honest_refusal.md
+      weight: 1.0

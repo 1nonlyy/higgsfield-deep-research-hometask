@@ -1,0 +1,7 @@
+# Voyager 1 and the heliopause
+
+The Voyager Interstellar Mission continues to return data from humanity’s farthest operating spacecraft. **Voyager 1** left the planets behind after its 1980 flyby of Saturn and has since been measuring the solar wind, magnetic field, and energetic particles along a northward trajectory relative to the heliospheric nose.
+
+By mid-2012, multiple instruments on Voyager 1 showed a sustained change consistent with crossing the **heliopause**, the boundary where the pressure of the outgoing solar wind is balanced by the interstellar plasma. On August 25, 2012, the **solar wind** density and speed dropped sharply in the plasma wave subsystem, while **galactic cosmic rays** climbed to levels not seen earlier in the cruise. The Low-Energy Charged Particle experiment recorded a step increase in cosmic-ray intensity that persisted, indicating the spacecraft was sampling a different particle population than the supersonic solar wind interior.
+
+Mission operators emphasize that the heliopause is not a razor-thin wall but a transition region. Nevertheless, the combination of a solar wind **drop**, a magnetic field environment characteristic of the outer heliosheath, and a **rise** in **galactic cosmic ray** flux provides the canonical evidence used in public summaries that **Voyager 1** crossed into interstellar space in **2012**. The spacecraft remains the reference point for heliospheric models and for calibrating how energetic particles propagate from the galaxy into the solar neighborhood.

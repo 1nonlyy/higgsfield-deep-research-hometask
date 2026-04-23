@@ -1,0 +1,134 @@
+{
+  "pages": [
+    {
+      "url": "https://corpus.local/voyager-timeline",
+      "title": "Voyager 1 heliopause crossing and plasma science summary",
+      "file": "voyager.md"
+    },
+    {
+      "url": "https://corpus.local/voyager-heliosphere-disagreement",
+      "title": "Heliosphere boundary analysis — revised crossing window for Voyager 1",
+      "file": "conflicting_voyager.md"
+    },
+    {
+      "url": "https://corpus.local/nasa-heliopause-announcement",
+      "title": "NASA briefing: Voyager 1 exits the heliosphere",
+      "file": "nasa_heliopause_briefing.md"
+    },
+    {
+      "url": "https://corpus.local/voyager-golden-record",
+      "title": "The Voyager Golden Record: contents and fabrication notes",
+      "file": "voyager_golden_record.md"
+    },
+    {
+      "url": "https://corpus.local/mars-curiosity-overview",
+      "title": "Mars Curiosity rover: mission goals and Gale Crater science",
+      "file": "mars_rovers.md"
+    },
+    {
+      "url": "https://corpus.local/mars-perseverance-overview",
+      "title": "Mars Perseverance rover: Jezero delta and sample caching overview",
+      "file": "mars_rovers.md"
+    },
+    {
+      "url": "https://corpus.local/photosynthesis-light-reactions",
+      "title": "Photosynthesis: light-dependent reactions, chlorophyll, and the thylakoid membrane",
+      "file": "photosynthesis.md"
+    },
+    {
+      "url": "https://corpus.local/lunar-base-roadmap-confidential",
+      "title": "CONFIDENTIAL: Artemis-derived lunar surface infrastructure roadmap",
+      "file": "lunar_base_roadmap_confidential.md"
+    },
+    {
+      "url": "https://corpus.local/jupiter-galileo-mission",
+      "title": "Galileo mission at Jupiter: probes, moons, and radiation belts",
+      "file": "jupiter_galileo.md"
+    },
+    {
+      "url": "https://corpus.local/saturn-cassini-mission",
+      "title": "Cassini at Saturn: rings, Titan, and Enceladus plumes",
+      "file": "saturn_cassini.md"
+    },
+    {
+      "url": "https://corpus.local/hubble-deep-field",
+      "title": "Hubble Space Telescope deep fields and extragalactic surveys",
+      "file": "hubble.md"
+    },
+    {
+      "url": "https://corpus.local/exoplanet-kepler-survey",
+      "title": "Kepler exoplanet survey: detection methods and population statistics",
+      "file": "exoplanet_kepler.md"
+    },
+    {
+      "url": "https://corpus.local/iss-research-highlights",
+      "title": "International Space Station research highlights: microgravity biology",
+      "file": "iss_research.md"
+    },
+    {
+      "url": "https://corpus.local/acme-robotics-specs",
+      "title": "Acme Robotics Model R-7 mobile platform — technical specifications",
+      "file": "acme_robotics_specs.md"
+    },
+    {
+      "url": "https://corpus.local/acme-press-release",
+      "title": "Acme Robotics announces Sentinel patrol stack for warehouse logistics",
+      "file": "acme_press_release.md"
+    },
+    {
+      "url": "https://corpus.local/dna-replication-basics",
+      "title": "DNA replication in eukaryotes: origins, polymerases, and proofreading",
+      "file": "dna_replication.md"
+    },
+    {
+      "url": "https://corpus.local/recipes-pasta",
+      "title": "Weeknight pasta: cacio e pepe and amatriciana variations",
+      "file": "recipes_pasta.md"
+    },
+    {
+      "url": "https://corpus.local/confidential-internal-acme",
+      "title": "CONFIDENTIAL: Acme Robotics firmware signing keys rotation schedule",
+      "file": "confidential_internal.md"
+    },
+    {
+      "url": "https://corpus.local/noise-cooking-kitchen",
+      "title": "Cast iron skillet maintenance and weeknight stir-fry timing",
+      "file": "noise_cooking.md"
+    },
+    {
+      "url": "https://corpus.local/noise-gardening-annuals",
+      "title": "Raised bed gardening: soil mixes for tomatoes and peppers",
+      "file": "noise_gardening.md"
+    },
+    {
+      "url": "https://corpus.local/weather-midwest-almanac",
+      "title": "Midwest spring frost dates and hail frequency (unofficial almanac)",
+      "file": "weather_almanac.md"
+    },
+    {
+      "url": "https://corpus.local/recipes-miso-soup",
+      "title": "Miso soup with wakame and tofu — pantry staples",
+      "file": "recipes_miso_soup.md"
+    },
+    {
+      "url": "https://corpus.local/cell-respiration-basics",
+      "title": "Cellular respiration: glycolysis, Krebs cycle, and electron transport",
+      "file": "cell_respiration.md"
+    },
+    {
+      "url": "https://corpus.local/jwst-cosmic-cliffs-overview",
+      "title": "James Webb Space Telescope: Carina Nebula cosmic cliffs imaging",
+      "file": "jwst_deep_field.md"
+    },
+    {
+      "url": "https://corpus.local/acme-support-field-manual",
+      "title": "Acme Robotics field technician manual — calibration checks",
+      "file": "acme_support_faq.md"
+    },
+    {
+      "url": "https://corpus.local/confidential-satellite-budget",
+      "title": "CONFIDENTIAL: Low-Earth relay satellite cost envelope (draft)",
+      "file": "satellite_budget_confidential.md"
+    }
+  ]
+}

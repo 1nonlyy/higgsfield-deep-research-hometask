@@ -1,0 +1,15 @@
+# Targets: clean end-to-end success on a corpus-grounded fact (heliopause / 2012) with real citations.
+id: happy_path_voyager
+input: "What year did the Voyager 1 probe cross the heliopause, and what instrument readings supported that conclusion?"
+expected_behavior:
+  hard:
+    - type: stopped_reason
+      value: finish
+    - type: citations_fetched
+      value: true
+    - type: answer_contains
+      value: "2012"
+  soft:
+    - metric: correctness
+      rubric_file: correctness.md
+      weight: 1.0

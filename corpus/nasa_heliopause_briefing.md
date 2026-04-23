@@ -1,0 +1,7 @@
+# NASA briefing: Voyager 1 exits the heliosphere
+
+NASA’s Jet Propulsion Laboratory released a consolidated briefing for science writers summarizing how researchers concluded that **Voyager 1** had crossed the **heliopause** and entered a region dominated by interstellar plasma influences. The document highlights three observables that reinforced one another across 2012.
+
+First, the plasma wave instrument documented a hard **drop** in oscillations driven by **solar wind** turbulence, consistent with the spacecraft leaving the supersonic wind behind. Second, the Cosmic Ray System reported a marked **rise** in **galactic cosmic rays**, especially helium and heavier nuclei, with counting rates stabilizing at a higher plateau than during the preceding decade of slow increase. Third, combined magnetic field data showed the spacecraft remained magnetically connected to the heliospheric influence even as the particle populations changed, underscoring that the **heliopause** is a complex layer rather than a single shock front.
+
+Public communications therefore emphasize **August 2012** as the milestone window when **Voyager 1** first encountered interstellar plasma conditions, while noting ongoing adjustments to exact timing as models ingest calibration updates. The briefing stresses that **Voyager 1** remains operational and continues to return unique measurements of **galactic cosmic rays** and low-frequency waves, anchoring decades of **heliopause** science for future interstellar probes.

@@ -1,0 +1,50 @@
+{
+  "run_id": "sample-run",
+  "question": "What year did the Voyager 1 probe cross the heliopause, and what was the evidence?",
+  "model": "fixture-model",
+  "messages": [
+    { "role": "system", "content": "You are Deep Research Lite." },
+    { "role": "user", "content": "What year did the Voyager 1 probe cross the heliopause, and what was the evidence?" },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        { "id": "tc_1", "name": "web_search", "args": { "query": "Voyager 1 heliopause evidence", "k": 5 } }
+      ],
+      "latency_ms": 10
+    },
+    { "role": "tool", "name": "web_search", "content": [{ "title": "Voyager timeline", "url": "https://corpus.local/voyager-timeline", "snippet": "..." }] },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        { "id": "tc_2", "name": "fetch_url", "args": { "url": "https://corpus.local/voyager-timeline" } }
+      ],
+      "latency_ms": 12
+    },
+    { "role": "tool", "name": "fetch_url", "content": "Voyager 1 crossed the heliopause in 2012. Evidence included a drop in solar wind particles and a rise in galactic cosmic rays." },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "tc_3",
+          "name": "finish",
+          "args": {
+            "answer": "Voyager 1 crossed the heliopause in 2012. Evidence included a sharp drop in solar wind particles and a corresponding rise in galactic cosmic rays.",
+            "citations": ["https://corpus.local/voyager-timeline"]
+          }
+        }
+      ],
+      "latency_ms": 8
+    }
+  ],
+  "final_answer": "Voyager 1 crossed the heliopause in 2012. Evidence included a sharp drop in solar wind particles and a corresponding rise in galactic cosmic rays.",
+  "citations": ["https://corpus.local/voyager-timeline"],
+  "stopped_reason": "finish",
+  "total_tokens": { "input": 0, "output": 0 },
+  "cost_usd": 0.0,
+  "wall_time_ms": 0,
+  "error": null
+}
+

@@ -1,0 +1,7 @@
+# Hubble Space Telescope deep fields and extragalactic surveys
+
+The **Hubble Space Telescope** (HST) has operated in low Earth orbit since 1990, delivering diffraction-limited visible and near-ultraviolet imaging that ground-based observatories struggle to match because of atmospheric turbulence. Servicing missions replaced instruments and gyroscopes, extending science lifetime across multiple decades.
+
+Deep field campaigns pointed HST at seemingly empty patches of sky for long cumulative exposures. The original Hubble Deep Field revealed thousands of faint galaxies to redshifts beyond what earlier surveys resolved, constraining models of galaxy formation and large-scale structure. Successor programs such as the Ultra Deep Field and Frontier Fields added infrared capability with WFC3 and leveraged gravitational lensing from foreground clusters to magnify background sources.
+
+Key science outcomes include improved estimates of the star formation history of the universe, detection of very high redshift candidates, and calibration of distance ladders that complement supernova measurements. Public outreach images from **Hubble** remain iconic, but researchers emphasize quantitative photometry, morphological catalogs, and spectroscopic follow-up with other facilities. Future wide-area missions will surpass **Hubble** in areal coverage, yet its archive underpins countless papers on extragalactic evolution.

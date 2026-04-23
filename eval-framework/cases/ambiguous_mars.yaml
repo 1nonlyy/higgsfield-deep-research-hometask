@@ -1,0 +1,29 @@
+# KNOWN AGENT BUG: Agent does not handle ambiguous prompts.
+# When asked about "the Mars mission" it silently picks one
+# (Curiosity or Perseverance) without disclosing ambiguity.
+# This is an intentional failure case. Expected: FAIL until agent
+# is fixed. Framework correctly surfaces this behavior.
+# Targets: over-specific answers when the query matches multiple Mars missions; expect ambiguity handling.
+id: ambiguous_mars
+input: "Tell me about the Mars mission"
+expected_behavior:
+  hard:
+    - type: tool_called
+      value: web_search
+    - type: tool_called
+      value: fetch_url
+    - type: answer_contains_any
+      value:
+        - "Curiosity"
+        - "Perseverance"
+        - "Jezero"
+        - "Gale"
+        - "Mars Science Laboratory"
+        - "Mars 2020"
+  soft:
+    - metric: ambiguity
+      rubric_file: ambiguity.md
+      weight: 1.0
+    - metric: correctness
+      rubric_file: correctness.md
+      weight: 1.0

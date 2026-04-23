@@ -1,0 +1,15 @@
+# Targets: answering from snippet-only memory without fetch_url, or declaring finish without opening a page.
+id: happy_path_photosynthesis
+input: "How does photosynthesis work?"
+expected_behavior:
+  hard:
+    - type: stopped_reason
+      value: finish
+    - type: tool_called
+      value: fetch_url
+    - type: citations_fetched
+      value: true
+  soft:
+    - metric: correctness
+      rubric_file: correctness.md
+      weight: 1.0

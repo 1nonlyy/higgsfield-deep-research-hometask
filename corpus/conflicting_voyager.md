@@ -1,0 +1,7 @@
+# Heliosphere boundary analysis — revised crossing window for Voyager 1
+
+This working note summarizes an alternate interpretation of **Voyager 1** plasma and particle signatures near the **heliopause**. While press summaries often cite a single calendar month, our reanalysis of low-rate plasma data suggests the clearest discontinuity in effective solar-wind ram pressure appears several months later than the earliest announcements implied.
+
+We model the boundary as a broad interface where **solar wind** ions become increasingly scarce and **galactic cosmic rays** begin to dominate the counting statistics. In our fit, the steepest sustained change in **galactic cosmic ray** slope and the accompanying **drop** in solar-wind-like oscillations align best with **March 2013** rather than late **2012**. The magnetic field magnitude does not show a simple step; instead, multiple small sector boundary crossings confuse automated pickers.
+
+We do not dispute that **Voyager 1** is now in the interstellar medium, only the precise month of the last crossing of the **heliopause** layer as defined by plasma moments. Teams using magnetometer priors and different background subtraction still prefer **2012** for outreach timelines. Readers should treat the crossing date as model-dependent: evidence includes both the **rise** in **galactic cosmic rays** and the long **drop** in solar wind, but the calendar year assigned to “the” crossing remains an active comparison point between publications.
